@@ -1,3 +1,9 @@
+# Install pip
+# numpy
+# pandas
+# scikit-learn
+# keras
+# tensorflow
 # Import libraries
 import numpy as np
 import pandas as pd
@@ -7,7 +13,7 @@ from keras.models import Sequential
 from keras.layers import LSTM, Dense
 
 # Load data from csv file
-data = pd.read_csv('datasetgold.csv')
+data = pd.read_csv('Git\Dataset\datasetgold.csv')
 
 # Define input and output columns
 input_cols = data.columns[:-1]
